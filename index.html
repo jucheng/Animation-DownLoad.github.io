@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>流行动漫下载</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="video-js/video-js.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="video-js/video.js"></script>
+    <script>
+    videojs.options.flash.swf = "video-js/video-js.swf";
+    </script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- 顶部导航 -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="menu-nav">
+        <div class="container">
+            <!-- 导航条居中显示 -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">流行动漫下载</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#ad-carousel">综述</a></li>
+                    <li><a href="#summary-container">简述</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">特点 <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#feature-tab" data-tab="tab-zhenhunjie">镇魂街</a></li>
+                            <li><a href="#feature-tab" data-tab="tab-huoying">火影忍者</a></li>
+                            <li><a href="#feature-tab" data-tab="tab-sishen">死神</a></li>
+                            <li><a href="#feature-tab" data-tab="tab-guanlan">灌篮高手</a></li>
+                            <li><a href="#feature-tab" data-tab="tab-haizeiwang">海贼王</a></li>
+                            <li><a href="#feature-tab" data-tab="tab-yinhun">银魂</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" data-toggle="modal" data-target="#about-modal">关于</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 广告轮播 -->
+    <div id="ad-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#ad-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#ad-carousel" data-slide-to="1"></li>
+            <li data-target="#ad-carousel" data-slide-to="2"></li>
+            <li data-target="#ad-carousel" data-slide-to="3"></li>
+            <li data-target="#ad-carousel" data-slide-to="4"></li>
+            <li data-target="#ad-carousel" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/chrome-big.jpg" alt="1 slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>镇魂街</h1>
+                        <p>《镇魂街》是由许辰在有妖气原创漫画梦工厂独家签约连载的网络漫画</p>
+                        <p><a class="btn btn-lg btn-primary" href="http://www.loldytt.com/Anime/ZHJ/" role="button" target="_blank">点我下载</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/firefox-big.jpg" alt="2 slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>火影忍者</h1>
+                        <p>《火影忍者》是日本漫画家岸本齐史的代表作</p>
+                        <p><a class="btn btn-lg btn-primary" href="http://www.loldytt.com/Anime/Naruto/" target="_blank" role="button">点我下载</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/sishen-big.jpg" alt="2 slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>死神</h1>
+                        <p>《死神》是日本漫画家久保带人创作的漫画</p>
+                        <p><a class="btn btn-lg btn-primary" href="http://www.hltm.tv/search/?k=%E6%AD%BB%E7%A5%9E" target="_blank" role="button">点我下载</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/safari-big.jpg" alt="3 slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>灌篮高手</h1>
+                        <p>《灌篮高手》是日本漫画家井上雄彦以高中篮球为题材的励志型漫画及动画作品</p>
+                        <p><a class="btn btn-lg btn-primary" href="http://www.loldytt.com/Anime/GLGSGQZZB/" target="_blank" role="button">点我下载</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/opera-big.jpg" alt="4 slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>海贼王</h1>
+                        <p>《ONE PIECE》（海贼王、航海王）简称“OP”，是日本漫画家尾田荣一郎作画的少年漫画作品。</p>
+                        <p><a class="btn btn-lg btn-primary" href="http://www.loldytt.com/Anime/haizeiwang/" target="_blank" role="button">点我下载</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/ie-big.jpg" alt="5 slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>银魂</h1>
+                        <p>《银魂》是由日本漫画家空知英秋创作的少年漫画作品</p>
+                        <p><a class="btn btn-lg btn-primary" href="http://www.loldytt.com/Anime/YH/" target="_blank" role="button">点我下载</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#ad-carousel" data-slide="prev"><span
+            class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="right carousel-control" href="#ad-carousel" data-slide="next"><span
+            class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+    <!-- 主要内容 -->
+    <div class="container summary">
+        <!-- 简介 -->
+        <div class="row" id="summary-container">
+            <div class="col-md-4">
+                <img class="img-circle" src="images/zhenhunjie-logo-small.jpg" alt="zhenhunjie">
+                <h2>镇魂街</h2>
+                <p>镇魂街，这是一个人灵共存的世界，但不是每个人都能进入镇魂街，只有拥有守护灵的寄灵人才可进入。</p>
+                <p><a class="btn btn-lg btn-primary" href="http://v.youku.com/v_show/id_XMTc2NzAzMDkwOA==.html?tpa=dW5pb25faWQ9MTAzNzUzXzEwMDAwMV8wMV8wMQ" role="button">精彩集锦</a></p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-circle" src="images/huoying-logo-small.jpg" alt="huoying">
+                <h2>火影忍者</h2>
+                <p>整个故事就围绕鸣人的奋斗、成长，鸣人的同伴们的故事，以及这个忍者世界的各种争斗和阴谋展开。</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">精彩集锦</a></p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-circle" src="images/sishen-logo-small.jpg" alt="sishen">
+                <h2>死神</h2>
+                <p>故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">精彩集锦</a></p>
+            </div>
+        </div>
+        <div class="row" id="summary-container">
+            <div class="col-md-4">
+                <img class="img-circle" src="images/guanlan-logo-small.jpg" alt="guanlan">
+                <h2>灌篮高手</h2>
+                <p>为得到晴子的芳心，花道加入了校篮球队，从基本功练起，并以惊人的速度进步。</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">精彩集锦</a></p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-circle" src="images/haizeiwang-logo-small.jpg" alt="haizeiwang">
+                <h2>海贼王</h2>
+                <p>描写了拥有橡皮身体戴草帽的青年路飞，以成为“海贼王”为目标和同伴在大海展开冒险的故事。</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">精彩集锦</a></p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-circle" src="images/yinhun-logo-small.jpg" alt="yinhun">
+                <h2>银魂</h2>
+                <p>江户时代末期，被称为“天人”的异星人来袭，坂田银时却与同伴愉快地过着异想天开的生活。</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">精彩集锦</a></p>
+            </div>
+        </div>
+        <!-- 特性 -->
+        <hr class="feature-divider">
+        <ul class="nav nav-tabs" role="tablist" id="feature-tab">
+            <li class="active"><a href="#tab-zhenhunjie" role="tab" data-toggle="tab">镇魂街</a></li>
+            <li><a href="#tab-huoying" role="tab" data-toggle="tab">火影忍者</a></li>
+            <li><a href="#tab-sishen" role="tab" data-toggle="tab">死神</a></li>
+            <li><a href="#tab-guanlan" role="tab" data-toggle="tab">灌篮高手</a></li>
+            <li><a href="#tab-haizeiwang" role="tab" data-toggle="tab">海贼王</a></li>
+            <li><a href="#tab-yinhun" role="tab" data-toggle="tab">银魂</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" id="tab-zhenhunjie">
+                <div class="row feature">
+                    <div class="col-md-7">
+                        <h2 class="feature-heading">镇魂街 <span
+                            class="text-muted">这条街我说了算</span></h2>
+                        <p class="lead">镇魂街，此乃吸纳亡灵镇压恶灵之地。这是一个人灵共存的世界，但不是每个人都能进入镇魂街，只有拥有守护灵的寄灵人才可进入。夏铃原本是一名普通的大学实习生，但一次偶然导致她的人生从此不再平凡。在这个充满恶灵的世界，你能与你的守护灵携手生存下去吗？</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="feature-image img-responsive" src="images/zhenhunjie-logo.jpg" alt="Zhenhunjie">
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="tab-huoying">
+                <div class="row feature">
+                    <div class="col-md-5">
+                        <img class="feature-image img-responsive" src="images/huoying-logo.jpg" alt="Huoying">
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="feature-heading">火影忍者<span class="text-muted">树叶飞舞之处，火亦生生不息</span>
+                    </h2>
+                        <p class="lead">作品设定在一个忍者的世界，故事从主人公漩涡鸣人的孤儿生活开始，他的父母为了保护村子，将攻击村子九尾妖狐封印到了他体内，鸣人因此受尽了村人的冷落，只是拼命用各种恶作剧试图吸引大家的注意力。好在还是有依鲁卡老师的关心，鸣人的性格才没有变得扭曲，他总是干劲十足、非常乐观。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="tab-sishen">
+                <div class="row feature">
+                    <div class="col-md-7">
+                        <h2 class="feature-heading">死神 <span class="text-muted">我手里拿着刀，没法抱你。我放下刀，没法保护你。</span></h2>
+                        <p class="lead">故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化。</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="feature-image img-responsive" src="images/sishen-logo.jpg" alt="Sishen">
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="tab-guanlan">
+                <div class="row feature">
+                    <div class="col-md-5">
+                        <img class="feature-image img-responsive" src="images/guanlan-logo.jpg" alt="Guanlan">
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="feature-heading">灌篮高手 <span class="text-muted">教练，我想打篮球。</span>
+                    </h2>
+                        <p class="lead">樱木花道，日本神奈川县湘北高中一年级新生，身高体健，常打架斗殴的问题男孩，初中的恋爱史是被50个女生甩掉！因第50个女生一句“我喜欢的是篮球队的小田（小田龙政），而对篮球运动深恶痛绝。上高中不久，一次不经意被同校同级美女赤木晴子的一句：“你喜欢篮球吗？所触动，又燃起对爱情的希望。为得到晴子的芳心，花道加入了校篮球队，从基本功练起，并以惊人的速度进步。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="tab-haizeiwang">
+                <div class="row feature">
+                    <div class="col-md-7">
+                        <h2 class="feature-heading">海贼王<span class="text-muted"> 我是要成为海贼王的男人！</span></h2>
+                        <p class="lead">时值“大海贼时代”，为了寻找传说中海贼王罗杰所留下的大秘宝“ONE PIECE”，无数海贼扬起旗帜，互相争斗。一个叫路飞的少年为了与因救他而断臂的香克斯的约定而出海，在旅途中不断寻找志同道合的伙伴，开始了以成为海贼王为目标的伟大冒险旅程。</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="feature-image img-responsive" src="images/haizeiwang-logo.jpg" alt="Haizeiwang">
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="tab-yinhun">
+                <div class="row feature">
+                    <div class="col-md-5">
+                        <img class="feature-image img-responsive" src="images/yinhun-logo.jpg" alt="Yinhun">
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="feature-heading">银魂 <span class="text-muted">真正重要的东西，总是没有的人比拥有的人清楚。</span>
+                    </h2>
+                        <p class="lead">江户时代末期，被称为“天人”的异星人来袭。地球人与天人之间的战争瞬即爆发，为数众多的武士和攘夷派志士都参与与天人的战斗。幕府见识到天人强大的实力后，擅自与天人签订不平等条约，准许他们入国。其后更颁布了“废刀令”，夺走了武士的刀。自此，天人横行霸道，幕府成为了“傀儡政权”。在这样的时代，有一个武士与同伴愉快地过着异想天开的生活。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 关于 -->
+        <div class="modal fade" id="about-modal" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">关闭</span></button>
+                        <h4 class="modal-title" id="modal-label">关于</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            这其中只是给出了六部动漫的介绍以及下载，因为这六部动漫都是很受大家欢迎的，所以，介于这个只是一个练习的项目，我就只是弄了一些，大家敬请谅解。
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">了解了</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3>展示一下你最爱的动漫图片</h3>
+
+        <div class="demo">
+            <div class="uploadchoose">
+                <input type="file" size="30" name="fileselect" id="fileImage" />
+                <span id='dragarea'>也可将图片拖到我身上</span>
+            </div>
+            <div id="preview">
+            </div>
+            <div id="tip"></div>
+            <input type="button" value='确认上传' id='upload' />
+        </div>
+        <footer>
+            <p class="pull-right"><a href="#top" style="text-decoration: none;">回到顶部</a></p>
+            <p>&copy; 2016 陈巨程 前端实践</p>
+        </footer>
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/play.js"></script>
+</body>
+
+</html>
